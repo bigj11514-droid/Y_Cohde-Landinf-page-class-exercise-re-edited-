@@ -1,0 +1,113 @@
+/*global selector*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content{
+    max-width: 1080px;
+    margin: 0 auto;
+    background-image: linear-gradient(30deg, rgb(89, 65, 99) 30%, rgb(180, 172, 164) 60%);
+}
+
+header{
+    background-color: rgb(70, 3, 77);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#nav-header{
+    padding: 25px;
+}
+nav ul{ 
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+}
+a:hover{
+    color: rgb(122, 202, 202);
+}
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    margin: 0 1rem;
+}
+
+#info{
+    width: 90%;
+    margin: auto;
+}
+p{
+    line-height: 1.3rem;
+    margin: 1rem 0;
+    font-style: oblique;
+    font-size: 150%;
+    color: aliceblue;
+    padding: 10px;
+}
+h1{
+    font-size: 450%;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: rgb(134, 211, 185);
+    text-shadow: 2px 2px 5px  rgb(19, 84, 95)
+}
+section{
+    margin-top: 3rem;
+}
+span{
+    color: #da7cff;
+    font-weight: bold;
+}
+button{
+    padding: 15px 50px;
+    margin: 20px;
+    background-image: linear-gradient(to left, rgb(70, 17, 95) 30%, rgb(100, 50, 100) 60%);
+    color: rgb(250, 250, 250);
+    border-radius: 10px;
+    border: transparent;
+    border-left: 1px solid rgb(0, 217, 255);
+    border-right: 1px solid rgb(251, 255, 0);
+    cursor: pointer;
+}
+h2{
+    font-size: 100%;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-style: oblique;
+}
+#main-content{
+    padding: 0px 20px 40px;
+}
+.text{
+    color: aliceblue;
+    padding: 0px 20px 30px;
+}
+.text-ar{
+    font-style: italic;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.text-info{
+    margin-bottom: 0px;
+
+}
+
+.size{
+    font-size: 130%;
+}
